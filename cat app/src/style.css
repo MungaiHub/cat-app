@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.title{
+    background-color: grey;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+    font-size: 2rem;
+
+    
+}
+body{
+  background-color: goldenrod;
+}
+.form{
+    background-color: goldenrod;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+}
+.form-heading{
+    font-size: 2em;
+    margin-bottom: 2em;
+}
+.form-details input{
+    margin-left: 0.8em;
+    
+}
+.form-details label{
+    font-size: 1.5em;
+}
+.container{
+  padding-top: 1em;
+  
+}
+.fact-paragraph{
+  font-style: italic;
+  display: flex;
+  flex-direction: row;
+  gap: 0.8em;
+}
